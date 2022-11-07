@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validação de Inputs</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/scripts.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Criar conta</h2>
+      </div>
+      <form class="form" id="form">
+        <div class="form-control">
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id="nome" />
+          <i
+            ><img class="img-success" src="img/success-icon.svg" alt="success"
+          /></i>
+          <i><img class="img-error" src="img/error-icon.svg" alt="erro" /></i>
+          <small>Erro menssage</small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email" />
+          <i
+            ><img class="img-success" src="img/success-icon.svg" alt="success"
+          /></i>
+          <i><img class="img-error" src="img/error-icon.svg" alt="erro" /></i>
+          <small>Erro menssage</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password1">Senha</label>
+          <input
+            type="password"
+            name="password1"
+            id="password1"
+            class="email"
+          />
+          <i
+            ><img class="img-success" src="img/success-icon.svg" alt="success"
+          /></i>
+          <i><img class="img-error" src="img/error-icon.svg" alt="erro" /></i>
+          <small>Erro menssage</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password2">Confirmação de senha</label>
+          <input
+            type="password"
+            name="password2"
+            id="password2"
+            class="email"
+          />
+          <i
+            ><img class="img-success" src="img/success-icon.svg" alt="success"
+          /></i>
+          <i><img class="img-error" src="img/error-icon.svg" alt="erro" /></i>
+          <small>Erro menssage</small>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </body>
+</html>
